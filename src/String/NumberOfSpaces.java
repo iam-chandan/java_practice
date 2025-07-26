@@ -1,6 +1,6 @@
 package String;
 
-public class numberOfSpaces {
+public class NumberOfSpaces {
     static int spaceCount(String s){
         int count = 0;
         for (int i = 0; i < s.length(); i++) {
