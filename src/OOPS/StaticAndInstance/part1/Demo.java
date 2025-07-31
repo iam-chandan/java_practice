@@ -1,4 +1,4 @@
-package OOPS.StaticAndInstance;
+package OOPS.StaticAndInstance.part1;
 
 public class Demo {
     static int a,b;
