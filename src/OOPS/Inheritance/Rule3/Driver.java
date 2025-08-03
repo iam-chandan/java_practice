@@ -18,25 +18,25 @@ class Demo2{
         System.out.println("PYTHON");
     }
 }
-class Demo3 extends Demo1,Demo2{ // here i am doing multiple inheritance but not multilevel inheritance bcz of that it will give error
-    int c = 300;
-    void fun3(){
-        System.out.println("JAVASCRIPT");
-    }
-    void display(){
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-    }
-}
+//class Demo3 extends Demo1,Demo2{ // here i am doing multiple inheritance but not multilevel inheritance bcz of that it will give error
+//    int c = 300;
+//    void fun3(){
+//        System.out.println("JAVASCRIPT");
+//    }
+//    void display(){
+//        System.out.println(a);
+//        System.out.println(b);
+//        System.out.println(c);
+//    }
+//}
 
-public class Driver {
-    public static void main(String[] args) {
-        Demo3 d3 = new Demo3();
-
-        d3.display();
-        d3.fun1();
-        d3.fun2();
-        d3.fun3();
-    }
-}
+//public class Driver {
+//    public static void main(String[] args) {
+//        Demo3 d3 = new Demo3();
+//
+//        d3.display();
+//        d3.fun1();
+//        d3.fun2();
+//        d3.fun3();
+//    }
+//}
