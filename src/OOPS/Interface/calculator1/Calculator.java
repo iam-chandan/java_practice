@@ -1,4 +1,4 @@
-package OOPS.Interface;
+package OOPS.Interface.calculator1;
 
 import java.util.Scanner;
 
