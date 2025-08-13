@@ -8,7 +8,7 @@ import java.util.Scanner;
    travels from one method to another in the call stack until it is
    handled
  */
-
+/**************************************************************************/
 /*
                                 STACK TRACE
 -> If an Exception happens within a method if the method doesn't handle
@@ -82,7 +82,7 @@ Exception in thread "main" java.lang.ArithmeticException: / by zero
 	at Exception.propogationOfExceptionObject.Demo3.fun2(Demo1.java:32)
 	at Exception.propogationOfExceptionObject.Driver.main(Demo1.java:41)
  */
-
+/**************************************************************************/
 /*
 exception handled in fun4():-
 
@@ -116,7 +116,7 @@ connection 3 is terminated
 connection 2 is terminated
 connection 1 is terminated
  */
-
+/**************************************************************************/
 /*
 exception handled in fun3():-
 void fun3() {
@@ -145,3 +145,4 @@ connection 1 is terminated
 
 -> Here connection 4 is not terminated
  */
+/**************************************************************************/
