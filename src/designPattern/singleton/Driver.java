@@ -2,7 +2,7 @@ package designPattern.singleton;
 
 /*
                             SINGLETON DESIGN PATTERN
-->Using singleton design pattern we can create only one object of a class.
+->Using singleton design pattern we can create only one object/instance of a class.
  */
 
 class Test{
