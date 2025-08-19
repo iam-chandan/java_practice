@@ -1,12 +1,10 @@
-package multithreading.typesOfThread;
+package multithreading.typesOfThread.ex1;
 
 /*
 -> there are 2 types of thread
     1.User thread
     2.Daemon thread
  */
-
-import javax.crypto.spec.PSource;
 
 class UserThread extends Thread{
     public void run(){
