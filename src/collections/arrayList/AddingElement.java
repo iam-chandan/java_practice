@@ -2,7 +2,7 @@ package collections.arrayList;
 
 import java.util.ArrayList;
 
-public class Exmp1 {
+public class AddingElement {
     public static void main(String[] args) {
         ArrayList al = new ArrayList();
         al.add(10);
