@@ -1,7 +1,6 @@
-package collections.pojoclass.flights;
+package collections.pojoclass.flightsWithTreeSetComparableInterface;
 
-import java.util.ArrayList;
-import java.util.Collections;
+import java.util.TreeSet;
 
 class Flight implements Comparable<Flight>{
     private String departure;
@@ -55,9 +54,12 @@ class Flight implements Comparable<Flight>{
         return "[ departure="+departure+", name="+name+", duration="+duration+", price="+price+" ]";
     }
 
-    public int compareTo(Flight flight){
-        String s1 = this.departure;
-        String s2 = flight.departure;
+    public int compareTo(Flight f2){
+//        String s1 = this.departure;
+//        String s2 = f2.departure;
+//        return s1.compareTo(s2);
+        Integer s1 = this.price;
+        Integer s2 = f2.price;
         return s1.compareTo(s2);
     }
 }
@@ -73,7 +75,7 @@ public class Alpha {
         Flight f7 = new Flight("11:00","spicejet",4f,6000);
         Flight f8 = new Flight("13:00","goair",.5f,1000);
 
-        ArrayList<Flight> flightLists = new ArrayList<Flight>();
+        TreeSet<Flight> flightLists = new TreeSet<Flight>();
 
         flightLists.add(f1);
         flightLists.add(f2);
@@ -83,10 +85,6 @@ public class Alpha {
         flightLists.add(f6);
         flightLists.add(f7);
         flightLists.add(f8);
-
-        //as we know that ArrayList follows insertion order so to sort we use Collection classes sort() method and in
-        // Flight class implement Comparable interface and compareTo() method of Comparable interface will implement
-        Collections.sort(flightLists);
 
         for (Flight flight:flightLists) {
             System.out.println(flight);
