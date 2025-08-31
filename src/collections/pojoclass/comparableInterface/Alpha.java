@@ -1,4 +1,4 @@
-package collections.pojoclass.flightsWithTreeSetComparableInterface;
+package collections.pojoclass.comparableInterface;
 
 import java.util.TreeSet;
 
