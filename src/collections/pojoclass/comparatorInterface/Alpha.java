@@ -113,7 +113,7 @@ public class Alpha {
         flightLists.add(f8);
 
         //as we know that ArrayList follows insertion order so to sort we use Collection classes sort() method and in
-        // Flight class implement Comparable interface and compareTo() method of Comparable interface will implement
+        // Flight class implement Comparable README.md and compareTo() method of Comparable README.md will implement
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter number to sort as per that :");
         System.out.println("1. Departure");
