@@ -161,11 +161,11 @@ public class Test {
 
 # ✅ 5. Why Interface is Used?
 
-* 🔹 To achieve abstraction
-* 🔹 To support multiple inheritance
-* 🔹 To define contracts/standards
-* 🔹 To separate "what to do" from "how to do"
-* 🔹 Used extensively in frameworks (Spring, Hibernate, JDBC)
+🔹 To achieve abstraction
+🔹 To support multiple inheritance
+🔹 To define contracts/standards
+🔹 To separate "what to do" from "how to do"
+🔹 Used extensively in frameworks (Spring, Hibernate, JDBC)
 
 ---
 
