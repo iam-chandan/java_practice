@@ -1,12 +1,3 @@
----
-
-````markdown
-# Java Stream API – Complete Guide
-
-A comprehensive guide to Java Stream API with **creation, intermediate operations, terminal operations, collectors, primitive streams, parallel streams, and examples**. Perfect as a cheat sheet or reference.
-
----
-
 ## 1️⃣ What is Stream API?
 
 The **Java Stream API** (introduced in Java 8) is used to process collections of objects **in a functional style**, without modifying the original data.
