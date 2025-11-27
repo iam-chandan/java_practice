@@ -7,7 +7,7 @@ class Queue {
         try {
             if (is_data_present == false){
                 x = j;
-                System.out.println("Producer : "+x);
+                System.out.println("Producer : " + x);
                 is_data_present = true;
                 notify();
             }else {
