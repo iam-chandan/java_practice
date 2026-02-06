@@ -1,6 +1,7 @@
 package collections.map.hashmap;
 
 import java.util.HashMap;
+import java.util.Iterator;
 
 public class Exmp1 {
     public static void main(String[] args) {
@@ -9,6 +10,11 @@ public class Exmp1 {
         myDetails.put("lastName","patro");
         myDetails.put("DOB","15-aug-1947");
         myDetails.put("age",29);
+
+        Iterator itr = myDetails.entrySet().iterator();
+        while(itr.hasNext()){
+            System.out.println(itr.next());
+        }
         System.out.println(myDetails);
     }
 }
