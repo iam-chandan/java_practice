@@ -39,8 +39,12 @@ public class FindFirstNonRepeatingElement {
     public static void findFirstNonRepeatingElement4(){
         String[] arr = {"apple", "banana", "apple", "orange", "banana", "grape"};
         List<String> list = Arrays.asList(arr);
-        String num2 = list.stream().collect(Collectors.groupingBy(Function.identity(),LinkedHashMap::new,Collectors.counting()))
-                        .entrySet().stream().filter(n -> n.getValue() == 1).map(Map.Entry::getKey)
+        String num2 = list.stream()
+                        .collect(Collectors.groupingBy(Function.identity(),LinkedHashMap::new,Collectors.counting()))
+                        .entrySet()
+                        .stream()
+                        .filter(n -> n.getValue() == 1)
+                        .map(Map.Entry::getKey)
                         .findFirst().orElse(null);
         System.out.println(num2);
     }

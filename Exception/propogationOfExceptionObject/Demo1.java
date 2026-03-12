@@ -80,7 +80,7 @@ Exception in thread "main" java.lang.ArithmeticException: / by zero
 	at Exception.propogationOfExceptionObject.Demo1.fun4(Demo1.java:13)
 	at Exception.propogationOfExceptionObject.Demo2.fun3(Demo1.java:23)
 	at Exception.propogationOfExceptionObject.Demo3.fun2(Demo1.java:32)
-	at Exception.propogationOfExceptionObject.Driver.main(Demo1.java:41)
+	at Exception.propogationOfExceptionObject.interviewQ_A.Driver.main(Demo1.java:41)
  */
 /**************************************************************************/
 /*

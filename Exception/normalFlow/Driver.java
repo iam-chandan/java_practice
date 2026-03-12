@@ -37,5 +37,5 @@ Enter first element :
 Enter second element :
 0
 Exception in thread "main" java.lang.ArithmeticException: / by zero
-	at Exception.normalFlow.Driver.main(Driver.java:14)
+	at Exception.normalFlow.interviewQ_A.Driver.main(interviewQ_A.Driver.java:14)
  */

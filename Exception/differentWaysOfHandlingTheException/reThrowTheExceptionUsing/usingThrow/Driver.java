@@ -60,7 +60,7 @@ class Demo{
     }
 }
 
-public class Driver {
+public class interviewQ_A.Driver {
     public static void main(String[] args) {
         System.out.println("connection 1 is established");
         Demo d = new Demo();
@@ -77,8 +77,8 @@ Enter the denominator :
 0
 Handled exception in Demo class and fun()
 Exception in thread "main" java.lang.ArithmeticException: / by zero
-	at Exception.differentWaysOfHandlingTheException.reThrowTheExceptionUsing.usingThrow.Demo.fun(Driver.java:14)
-	at Exception.differentWaysOfHandlingTheException.reThrowTheExceptionUsing.usingThrow.Driver.main(Driver.java:28)
+	at Exception.differentWaysOfHandlingTheException.reThrowTheExceptionUsing.usingThrow.Demo.fun(interviewQ_A.Driver.java:14)
+	at Exception.differentWaysOfHandlingTheException.reThrowTheExceptionUsing.usingThrow.interviewQ_A.Driver.main(interviewQ_A.Driver.java:28)
  */
 /********************************************************************************************************************/
 /*
@@ -101,7 +101,7 @@ class Demo{
     }
 }
 
-public class Driver {
+public class interviewQ_A.Driver {
     public static void main(String[] args) {
         System.out.println("connection 1 is established");
         Demo d = new Demo();

@@ -45,7 +45,7 @@ public class BookAllocation {
         return result;
     }
 
-    // Driver function
+    // interviewQ_A.Driver function
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();  // Number of test cases

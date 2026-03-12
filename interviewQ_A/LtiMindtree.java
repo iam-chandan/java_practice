@@ -1,11 +1,6 @@
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.function.Function;
-import java.util.stream.Collectors;
+package interviewQ_A;
 
-public class Driver {
+public class LtiMindtree {
     public static void main(String[] args) {
 //        List<String> str = Arrays.asList("abcd", "bcd", "cef", "abcd", "cef", "fgh");
 //        Map<String,Integer> map = new HashMap<>();
