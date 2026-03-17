@@ -9,12 +9,11 @@ public class SlidingWindow2 {
         int target = 3;
 
         List<Integer> ans = new ArrayList<>();
-        for (int i = 0; i < arr.length - target; i++) {
-            for (int j = i; j < target + i; j++) {
-                int max1 = Math.max(arr[j - 1], arr[j -2]);
-                int max2 = Math.max(arr[j], max1);
-                ans.add(max2);
-            }
+        for (int i = 1; i <= target && target <= arr.length; i++) {
+            int max1 = Math.max(arr[i - 1], arr[i]);
+            int max2 = Math.max(arr[i+1], max1);
+            ans.add(max2);
+            target++;
         }
         System.out.println(ans);
     }
