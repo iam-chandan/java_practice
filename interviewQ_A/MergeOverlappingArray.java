@@ -3,7 +3,7 @@ package interviewQ_A;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MergeArray {
+public class MergeOverlappingArray {
     public static void main(String[] args) {
 //        int[][] arr = {{1,5},{2,6},{8,10}};
         int[][] arr = {{1,4},{4,6},{8,10}};

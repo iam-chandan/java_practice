@@ -21,7 +21,7 @@ public class BookAllocation {
         return true;
     }
 
-    // Main function to find minimum of the maximum pages assigned
+    // interviewQ_A.FoundDuplicate function to find minimum of the maximum pages assigned
     static int findMinimumPages(int[] books, int n, int m) {
         if (n < m) return -1;
 

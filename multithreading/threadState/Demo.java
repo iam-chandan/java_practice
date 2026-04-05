@@ -2,15 +2,15 @@ package multithreading.threadState;
 
 public class Demo {
     public static void main(String[] args) {
-        System.out.println("Main thread started");
+        System.out.println("interviewQ_A.FoundDuplicate thread started");
         try {
-            System.out.println("Main thread executing..");
+            System.out.println("interviewQ_A.FoundDuplicate thread executing..");
             Thread.sleep(4000);
-            System.out.println("Main thread executing..");
+            System.out.println("interviewQ_A.FoundDuplicate thread executing..");
             Thread.sleep(4000);
-            System.out.println("Main thread executing..");
+            System.out.println("interviewQ_A.FoundDuplicate thread executing..");
             Thread.sleep(4000);
-            System.out.println("Main thread executing..");
+            System.out.println("interviewQ_A.FoundDuplicate thread executing..");
         }catch (Exception e){
             e.printStackTrace();
         }

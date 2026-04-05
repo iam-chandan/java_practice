@@ -1,8 +1,10 @@
+package interviewQ_A;
+
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class Main {
+public class FoundDuplicate {
 
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1,2,4,5,4,7,1,8,5);
